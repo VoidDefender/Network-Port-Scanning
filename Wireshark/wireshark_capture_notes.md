@@ -18,7 +18,7 @@ tcp.port == 53
 
 ## What I Observed:
 
-- Wireshark captured a total of 2538 packets during the scan.
+- Wireshark captured a total of 4539 packets during the scan.
 - After applying the filter, I found that Nmap sent a SYN packet to port 53 on 192.168.255.108.
 - That host responded with a SYN-ACK, which confirms that port 53 is open.
 - A reset (RST) was sent back from the scanner, which is expected behavior in a stealth scan (Nmap -sS).
