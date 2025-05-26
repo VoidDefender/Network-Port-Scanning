@@ -1,6 +1,6 @@
 # Wireshark Packet Capture Notes – Task 1 (Nmap Scan)
 
-Interface: wlan0 (Wi-Fi)
+### Interface: wlan0 (Wi-Fi)
 
 ## Steps Taken:
 
