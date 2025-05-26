@@ -92,6 +92,8 @@ nmap_scan_results.txt: Raw output from Nmap scan.
 
 README.md: Documentation and analysis of the scan.
 
+Wireshark: Documentation and analysis of the packet inspection.
+
 
 ## Learning Outcomes:
 
