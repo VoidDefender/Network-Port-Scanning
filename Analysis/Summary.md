@@ -13,6 +13,6 @@
 *Command Used:*
 bash
 
-nmap -sS 192.168.255.28/24  
+    nmap -sS 192.168.255.28/24  
 
-                                      - *BY:* Sumit Singh Rawat
+- *BY:* Sumit Singh Rawat
