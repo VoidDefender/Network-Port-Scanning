@@ -10,7 +10,7 @@ Perform a network scan on the local subnet to identify active devices and check 
   sudo nmap -sS 192.168.255.28/24
 - wireshark 
 
-Scan Output Summary:
+## Scan Output Summary:
 
 Nmap scan report for 192.168.255.96
 Host is up (0.044s latency).
@@ -32,7 +32,7 @@ Not shown: 1000 closed tcp ports (reset)
 
 Nmap done: 256 IP addresses (3 hosts up) scanned in 6.31 seconds
 
-Live Hosts and Port Status:
+## Live Hosts and Port Status:
 
 1. 192.168.255.96
 
@@ -68,7 +68,7 @@ All 1000 ports were closed (reset)
 
 
 
-Observations:
+## Observations:
 
 Only one open port was found on the entire subnet (Port 53 on 192.168.255.108).
 
@@ -77,7 +77,7 @@ Port 53 is typically used for DNS services. If this device is not meant to act a
 All other devices either had no open ports or had firewalls blocking port responses.
 
 
-Security Insights:
+## Security Insights:
 
 Open ports can be exploited by attackers to gain unauthorized access.
 
@@ -86,14 +86,14 @@ Regular scanning helps detect unnecessary services running on devices.
 It's good practice to close unused ports and run firewalls to reduce attack surface.
 
 
-Files Included:
+## Files Included:
 
 nmap_scan_results.txt: Raw output from Nmap scan.
 
 README.md: Documentation and analysis of the scan.
 
 
-Learning Outcomes:
+## Learning Outcomes:
 
 Learned how to use Nmap for TCP SYN scanning.
 
