@@ -8,7 +8,7 @@ Perform a network scan on the local subnet to identify active devices and check 
 - Command used:
   ```bash
   sudo nmap -sS 192.168.255.28/24
-- wireshark 
+- **Wireshark** 
 
 ## Scan Output Summary:
 
