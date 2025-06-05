@@ -1,4 +1,4 @@
-# Task 1 - Network Port Scanning | Cyber Security Internship
+# Network Port Scanning
 
 ## Objective:
 Perform a network scan on the local subnet to identify active devices and check for open TCP ports using Nmap. This helps in understanding the exposure level of devices in a network.
@@ -103,4 +103,3 @@ Gained basic network reconnaissance skills.
 
 Understood how to identify open ports and assess service exposure risks.
 
----
